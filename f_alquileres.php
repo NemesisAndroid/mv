@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Alquiler de minicargadores y Obras civiles Ciudad de Resistencia - Maqui-Vial</title>
+	<title>Alquiler de minicargadores y Obras civiles Ciudad de Resistencia - Maqui-Vial</title>
 	<meta name="author" content="Soluciones 3g">
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
