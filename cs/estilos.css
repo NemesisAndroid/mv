@@ -1,0 +1,251 @@
+﻿body{
+	margin: 0; 
+	padding: 0;
+	background-color: #66a64c; 
+	font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; 
+	font-size: 87.5%;
+	background-image: url("../imagenes/fondo.jpg");
+	background-repeat: no-repeat;
+}
+.encabezadoPrincipal{
+	clear: both; 
+	display: inline-block; 
+	float: left; 
+	padding: 3px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	/*background: #ccc;*/
+	background-color: transparent;
+	margin: 0 0 10px 15px;
+	height: auto;
+	width: 98%;
+}
+
+.encabezado{
+	z-index: 2;
+	position: relative;
+}
+.menu {
+	position: relative;
+	top: 16px;
+	left: 120px;
+	margin:0 0 10px 0;
+	width: 90%;
+	height: 36px;
+	padding: 0;
+	float:left;
+	background-color:#e8e8e8;
+	list-style-type: none;
+}	
+
+.menu li {
+	float: left;
+ 	position: relative;
+}
+
+.menu li ul {
+	width: 240px;	
+}
+
+.menu li:hover ul {
+ 	position: absolute;
+ 	z-index: 2;
+	top: 34px;
+	left: 0;	
+}
+.menu li ul li {
+	float: left;
+	width: 100%;
+}
+.menu a {
+	padding: 10px 15px;
+}
+
+.menu li {
+	float: left;
+	position: relative; 
+}
+
+.menu li:hover ul {
+	position: absolute;
+	z-index: 2;
+}
+.menu li ul li {
+	float: none;
+	}
+.menu a {
+	color: #373c3b;
+	background-color:#e8e8e8;
+	text-decoration: none;
+	
+}
+.menu a:hover {
+	color: #f8f3e1;
+	background-color: #686b6b;	
+}
+.menu ul {
+	background-color: #e8e8e8;
+}
+.menu .current > a {
+		color: #f8f3e1;
+		background-color: #686b6b;
+}
+
+.menu .current > a:hover {
+		color: #f8f3e1;
+		background-color: #686b6b;
+}
+.menu , .menu a , .menu li a, .menu li ul li a{
+	font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+.menu li {
+	line-height: 1.000em;
+}
+
+.menu a {
+	display: block;
+	font-size: 1.000em;
+}
+.contenido{ 
+	clear: both;
+	position: relative; 
+	overflow: hidden; 
+}
+.subContenido{
+	clear: both; 
+	position: relative;
+	background-repeat: repeat;
+	background-position: center top;
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	width: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.web{
+	text-align: right;
+}
+.logo, .logo a, .logo img{
+	outline: 0; 
+	border: 0; 
+	text-decoration: none;
+}
+.logo a, .logo img {
+	display: block;
+}
+.logo {
+	z-index: 2;
+	width:0;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.contacto{
+	font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
+	font-size: 1.000em;
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 5px solid red;
+	background-color: white;
+}
+.email{
+	text-align: left;
+	margin: 0.5em 0.5em  0 0.5em;
+	height:32px;
+	line-height:32px;
+	color: #373c3b;
+	font-size: 1.250em;
+}
+.telefono{
+	text-align:right;
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	height:32px;
+	line-height:32px;
+	color: #2f03af;
+	font-size: 1.970em;
+}
+.pie{
+	background-image: url("../imagenes/pie.jpg");
+	background-repeat:repeat-x;
+	clear: both; 
+	z-index: 2;
+	display: inline-block; 
+	float: left; 
+	padding: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0 0 10px 15px;
+	height: auto;
+	width: 98%;
+}
+
+.piecontenido{
+	z-index: 2;
+	position: relative;
+	/*clear: both;*/
+}
+#fotos{
+	border: 5px solid #ffffff;
+	width: 100%;
+}
+.columna{
+	background-color: white;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.aviso {
+	text-align: center;
+	alignment-adjust: central;
+}
+.izq{
+	float: left;
+}
+.der{
+	float: right; 
+}
+span{
+	font-weight: bold;
+	text-align: right;
+}
+
+.horario{
+	line-height: 1.400em;
+	list-style: none;
+	padding: 0;
+} 
+.fila{
+	text-align: right;
+}
+h1{
+	text-align: center;
+	color: #235f66;
+}
+.cont{
+	text-align: justify;
+}
+.politica{
+	text-align:justify;
+	height:550px;
+	overflow-y:scroll;
+}
+.logovalido{
+	position: relative;
+	float: left;
+}
+#lateral{
+	background-image: url("../imagenes/lateralder.png");
+	background-repeat: no-repeat;
+}
+#logueo{
+	text-align: right;
+}
